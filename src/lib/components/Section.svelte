@@ -36,7 +36,7 @@
 	}
 	.circle {
 		transform-origin: 50% 50%;
-		width: 60vh;
+		width: calc(min(100vw - 10rem, 60vh));
 		aspect-ratio: 1;
 		border-radius: 100%;
 		background: orange;
